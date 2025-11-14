@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./../styles/property.css">
+</head>
+
+<body>
+
+    <div id="top-nav">
+        <div>
+            <p>Welcome to Conbusi consulting service</p>
+        </div>
+        <div id="top-nav-contact">
+            <span>
+                <i class="fa-solid fa-envelope org-color"></i>
+                <span><a href="mailto@info@docmed.com" class="a-default">info@docmed.com</a></span>
+            </span>
+            <span>
+                <i class="fa-solid fa-phone org-color"></i>
+                <span><a href="tel:1601-609 6780" class="a-default">1601-609 6780</a></span>
+            </span>
+            <span>
+                <i class="fa-brands fa-linkedin-in link-icon"></i>
+                <i class="fa-brands fa-facebook-f link-icon"></i>
+                <i class="fa-brands fa-google-plus-g link-icon"></i>
+            </span>
+        </div>
+    </div>
+
+    <div id="nav-bar">
+        <div>
+            <img src="./../assets/images/logo.png.webp" alt="Logo">
+        </div>
+        <div id="nav-links">
+            <ul>
+                <li><a href="#" class="a-default">Home</a></li>
+                <li>
+                    <a href="#" class="a-default">
+                        Pages<i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    
+                </li>
+                <li><a href="#" class="a-default">Property</a></li>
+                <li><a href="#" class="a-default">Blog</a><i class="fa-solid fa-angle-down"></i></li>
+                <li><a href="#" class="a-default">Contact</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <a href="#" class="a-default"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="a-default button">Add Property</a>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="hero-container">
+           <div id="hero-content">
+                <h1>Search property</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="property-search-div">
+        <div id="property-search">
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Location</p>
+                        </td>
+                        <td>
+                            <p>Property type</p>
+                        </td>
+                        <td>
+                            <p>Price ($)</p>
+                        </td>
+                        <td>
+                            <p>Bed Room</p>
+                        </td>
+                        <td>
+                            <p>Bath Room</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="location" id="location">
+                                <option value="newyork">NewYork</option>
+                                <option value="bangladesh">Bangladesh</option>
+                                <option value="india">India</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="propertytype" id="propertytype">
+                                <option value="appartment">Apartment</option>
+                                <option value="appartment">Apartment</option>
+                                <option value="appartment">Apartment</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="range" min="20k" max="200k">
+                        </td>
+                        <td>
+                            <select name="bedroom" id="bedroom">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="bathroom" id="bathroom">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                            </select>
+                        </td>
+                        <td>
+                            <a href="#" class="a-default"><i class="fa-solid fa-magnifying-glass"
+                                    id="search-button"></i></a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div id="popular-properties">
+        <h3>240 Properties found</h3>
+        <div id="property-list">
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-1.png" alt="property-1">
+                    <div class="for-sale">For Sale</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">From $20k</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-2.png" alt="property-2">
+                    <div class="for-sale for-rent">For Rent</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">$563/month</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-1.png" alt="property-3">
+                    <div class="for-sale">For Sale</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">From $20k</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-4.png" alt="property-4">
+                    <div class="for-sale for-rent">For Rent</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">$563/month</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-5.png" alt="property-5">
+                    <div class="for-sale">For Sale</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">From $20k</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+
+            <div class="property">
+                <div id="property-img-div">
+                    <img class="property-img" src="./../assets/images/property-6.png" alt="property-6">
+                    <div class="for-sale">For Sale</div>
+                </div>
+                <div class="content">
+                    <h4><a href="#" class="a-default">Comfortable Apartment in Palace</a></h4>
+                    <span><img src="./../assets/icons/location.svg" alt="location-icon">Popular Properties</span>
+                    <p><a href="#" class="a-default">From $20k</a></p>
+                </div>
+                <div class="icon-content">
+                    <span>
+                        <img src="./../assets/icons/square.svg" alt="square-icon">
+                        1200 Sqft
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bed.svg" alt="bed-icon">
+                        2 Bed
+                    </span>
+                    <span>
+                        <img src="./../assets/icons/bath.svg" alt="bath-icon">
+                        2 Bath
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="more-properties-div"><a href="#" class="more-properties a-default">More Properties</a></span></div>
+    </div>
+
+    <div id="add-property">
+        <div>
+            <div>
+                <h1>Add your property for sale</h1>
+            </div>
+            <div>
+                <span>
+                    +10 637 367 4567
+                    <a href="#" class="a-default" id="add-property-btn">Add Property</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="brand-info">
+            <img src="./assets/images/footer_logo.png.webp" alt="footer-logo">
+            <p>conbusi@support.com </p>
+            <p>+10 873 672 6782 </p>
+            <p>600/D, Green road, NewYork </p>
+            <div id="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div>
+            <h4 class="footer-header">Services</h4>
+            <ul>
+                <li><a href="#">Marketing & SEO</a></li>
+                <li><a href="#">Startup</a></li>
+                <li><a href="#">Finance solution</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Travel</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="footer-header">Useful Links</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Appointment</a></li>
+            </ul>
+        </div>
+        <div id="subscribe">
+            <h4 class="footer-header">Subscribe</h4>
+            <form action="#">
+                <div>
+                    <input type="email" placeholder="Enter your mail">
+                    <button>Subscribe</button>
+                </div>
+                <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

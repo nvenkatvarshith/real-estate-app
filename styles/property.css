@@ -42,8 +42,8 @@ body{
 }
 
 #container{
-    background-image: url('./../assets/images/banner.png.webp');
-    background-position: center center;
+    background-image: url('./../assets/images/about-bg');
+    background-position: bottom center;
 }
 
 #hero-container{
@@ -88,29 +88,29 @@ body{
 #hero-content{
     text-align: center;
     color: #FFFFFF;
-    padding: 11rem 12rem 14rem 12rem;
+    padding: 7rem;
 }
 
 #hero-content h1{
-    font-size: 75px;
+    font-size: 45px;
     font-weight: 600;
-    margin: 0px;
 }
 
-#hero-content h5{
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0px;
+#property-search-div{
+    padding: 0px 19rem;
 }
 
 #property-search{
-    background-color:rgba(0, 28, 56, 0.6);
+    background-color:#001D38;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
 }
 
 #property-search form{
     margin-top: 20px;
     text-align: left;
-    padding: 40px 30px;
+    padding: 30px 20px;
 }
 
 #property-search form p{ 
@@ -141,19 +141,19 @@ body{
 
 
 #search-button{
-    background-color: #fdae5c;
+    background-color: #FD8E5E;
     padding: 15px;
     border-radius: 7px;
 }
 
 #popular-properties{
-    padding: 50px 70px;
+    padding: 20px 70px;
 }
 
-#popular-properties h1{
+#popular-properties h3{
     text-align: center;
-    font-weight: 400;
-    font-size: 50px;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 #property-list{
@@ -246,6 +246,7 @@ body{
 #more-properties-div{
     margin-top: 40px;
     text-align: center;
+    margin-bottom: 80px;
 }
 .more-properties{
     background-color: #fff;
@@ -303,168 +304,6 @@ body{
     position: absolute;
     top:145px;
     left:235px;
-}
-
-#view-details{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#featured-price{
-    font-size: 25px;
-}
-
-#view-details a{
-    color:#FD915E;
-    padding: 8px 25px;
-    border-radius: 35px;
-    border: 1px solid #FD915E;
-}
-
-#view-details a:hover{
-    color:#fff;
-    background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
-}
-
-#featured-description{
-    margin-top:20px
-}
-
-#featured-description span{
-    margin-right: 50px;
-    font-size: 14px;
-}
-
-#featured-description p{
-    color: #727272;
-    font-weight: 300;
-}
-
-#frequently-asked{
-    display: flex;
-    padding: 90px 100px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 200px;
-}
-
-#frequently-asked img{
-    border-radius: 10px;
-}
-
-#frequently-asked p{
-    font-size: 50px;
-    font-weight: 300;
-}
-
-#frequently-asked ul{
-    padding: 0px;
-}
-
-#frequently-asked ul li{
-    list-style-type: none;
-    font-weight: 300;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-
-#frequently-asked ul li i{
-    margin-right: 12px;
-}
-
-#statistics{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    column-gap: 40px;
-    padding: 5px 14rem 100px 1rem;
-}
-
-#statistics span{
-    font-size: 40px;
-    color:#FDAE5C;
-    font-weight: 500;
-}
-
-#statistics p{
-    margin: 0px;
-    color:#919394;
-    font-size: 14px;
-}
-
-#testimonial{
-    background-image: url('./../assets/images/testmonial.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#testimonial-main{
-    background-color: rgba(0, 29, 56, 0.7);
-    text-align: center;
-    color: #fff;
-    padding: 10rem 100px;
-}
-
-#testimonial-main h3{
-    font-size: 20px;
-    font-weight: 400;
-}
-
-#testimonial-main h4{
-    margin: 0px;
-    font-weight: 500;
-}
-
-#testimonial-main h5{
-    margin-top: 4px;
-    font-weight: 400;
-}
-
-#our-agents{
-    text-align: center;
-    padding: 4rem 10rem;
-}
-#our-agents h2{
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 50px;
-}
-#agents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-}
-
-#agents div{
-    flex:0.23;
-    overflow: hidden;
-}
-
-#agents div img{
-    width: 100%;
-    border-radius: 10px;
-}
-
-#agents div img:hover{
-    transition: transform 0.6s 0s ease;
-    border-radius: 10px;
-    transform: scale(1.04);
-}
-
-#agents div h4{
-    font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 0px;
-    margin-top: 14px;
-}
-
-#agents div h5{
-    font-weight: 300;
-    margin: 0px;
 }
 
 #add-property{
